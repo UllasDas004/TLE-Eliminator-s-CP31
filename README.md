@@ -48,7 +48,7 @@ Each folder contains:
 
 | Rating | Solved ✅ | Total 📄 | Completion 📈 |
 |--------|-----------|----------|----------------|
-| 800    | `0/31`    | 31       | `0%`           |
+| 800    | `1/31`    | 31       | `3%`           |
 | 900    | `0/31`    | 31       | `0%`           |
 | 1000   | `0/31`    | 31       | `0%`           |
 | 1100   | `0/31`    | 31       | `0%`           |
@@ -76,7 +76,7 @@ Each folder contains:
 ## 🎓 About Me
 
 > 👨‍🎓 B.Tech CSE @ NIT Durgapur  
-> 💡 Solved 270+ LeetCode, 1400+ CodeChef, 600+ CF  
+> 💡 Solved 300+ LeetCode, 1400+ CodeChef, 800+ CF  
 > 🏁 On a journey to improve in Competitive Programming  
 > 📌 This repo tracks my CP31 journey
 

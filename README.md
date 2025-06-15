@@ -1,6 +1,8 @@
 # 🧠 TLE Eliminator’s CP31 Sheet Solutions
 
-![Banner](Screenshot 2025-06-04 110155.png)
+<p align="center">
+  <img src="Assets/banner.png" width="100%" alt="TLE Eliminator Banner"/>
+</p>
 
 This repository contains my solutions to the **TLE Eliminator’s CP31 Sheet** — a structured set of 31 handpicked Codeforces problems for each rating level from 800 to 1900, created by **Priyansh 31dec** (CF Master & ICPC World Finalist).
 

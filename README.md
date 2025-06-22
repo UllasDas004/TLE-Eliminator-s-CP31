@@ -41,7 +41,7 @@ The sheet is designed to strengthen core DSA/algorithmic concepts, improve Codef
 
 Each folder contains:
 - ✅ Solved problems in C++
-- 🔗 Codeforces problem link (in comments or filename)
+- 🔗 Codeforces problem link in comments
 - 💬 Brief logic/approach in comments
 
 ---
@@ -51,7 +51,7 @@ Each folder contains:
 | Rating | Solved ✅ | Total 📄 | Completion 📈 |
 |--------|-----------|----------|----------------|
 | 800    | `31/31`    | 31       | `100%`           |
-| 900    | `13/31`    | 31       | `41%`           |
+| 900    | `14/31`    | 31       | `45%`           |
 | 1000    | `0/31`    | 31       | `0%`           |
 | 1100    | `0/31`    | 31       | `0%`           |
 | 1200    | `0/31`    | 31       | `0%`           |
@@ -63,9 +63,9 @@ Each folder contains:
 | 1800    | `0/31`    | 31       | `0%`           |
 | 1900    | `0/31`    | 31       | `0%`           |
 
-📊 **Overall Progress: 44 / 372**
+📊 **Overall Progress: 45 / 372**
 
-`[████...............................] 11.8%`
+`[████...............................] 12.1%`
 
 > This progress bar is auto-updated using `update_readme.py`
 

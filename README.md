@@ -4,7 +4,7 @@
   <img src="Assets/Banner.png" width="50%" alt="TLE Eliminator Banner"/>
 </p>
 
-This repository contains my solutions to the **TLE Eliminator’s CP31 Sheet** — a structured set of 31 handpicked Codeforces problems for each rating level from 800 to 1900, created by **Priyansh 31dec** (CF Master & ICPC World Finalist).
+This repository contains my solutions to the **TLE Eliminator’s CP31 Sheet** — a structured set of 31 handpicked Codeforces problems for each rating level from 800 to 1900, created by **Priyansh Agarwal** (CF Master & ICPC World Finalist).
 
 The sheet is designed to strengthen core DSA/algorithmic concepts, improve Codeforces rating, and prepare for contests and interviews.
 
@@ -80,19 +80,19 @@ Each folder contains:
 ## 🎓 About Me
 
 > 👨‍🎓 B.Tech CSE @ NIT Durgapur  
-> 💡 Solved 300+ LeetCode, 1400+ CodeChef, 800+ CF  
+> 💡 Solved 350+ LeetCode, 1500+ CodeChef, 1000+ CF  
 > 🏁 On a journey to improve in Competitive Programming  
 > 📌 This repo tracks my CP31 journey
 
 🔗 [GitHub](https://github.com/UllasDas004)  
-🔗 [LinkedIn](https://www.linkedin.com/in/your-profile) <!-- Replace with your actual profile -->
+🔗 [LinkedIn](https://www.linkedin.com/in/ullas-das/)
 
 ---
 
 ## 📎 Useful Resources
 
 - [📄 CP31 Sheet by TLE Eliminators](https://www.tle-eliminators.com/cp-sheet)
-- [📺 TLE CP31 YouTube Playlist](https://www.youtube.com/@TLEEliminators)
+- [📺 TLE CP31 YouTube Playlist](https://www.youtube.com/@TLE_Eliminators)
 - [📄 Priyansh’s Codeforces Blog](https://codeforces.com/blog/priyansh31dec)
 
 ---

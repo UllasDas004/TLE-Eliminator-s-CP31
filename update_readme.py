@@ -46,13 +46,18 @@ def update_readme(solved_dict, total_solved):
 
     print("✅ Clean update complete: README.md updated!")
 
+def rating_to_folder(rating):
+    return rating if int(rating) >= 1000 else f"0{rating}"
+
 # --- Run ---
 if __name__ == "__main__":
     solved_map = {}
     total_solved = 0
     for rating in RATINGS:
-        solved = count_solved(rating)
+        folder = rating_to_folder(rating)
+        solved = count_solved(os.path.join(os.path.dirname(__file__), folder))
         solved_map[rating] = solved
         total_solved += solved
 
     update_readme(solved_map, total_solved)
+

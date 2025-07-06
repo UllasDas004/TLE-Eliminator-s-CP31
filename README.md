@@ -25,8 +25,8 @@ The sheet is designed to strengthen core DSA/algorithmic concepts, improve Codef
 ## 📁 Folder Structure
 
 📦 TLE-Eliminator-s-CP31\
-┣ 📂 800\
-┣ 📂 900\
+┣ 📂 0800\
+┣ 📂 0900\
 ┣ 📂 1000\
 ┣ 📂 1200\
 ┣ 📂 1300\
@@ -50,8 +50,8 @@ Each folder contains:
 
 | Rating | Solved ✅ | Total 📄 | Completion 📈 |
 |--------|-----------|----------|----------------|
-| 800    | `0/31`    | 31       | `0%`           |
-| 900    | `0/31`    | 31       | `0%`           |
+| 800    | `31/31`    | 31       | `100%`           |
+| 900    | `31/31`    | 31       | `100%`           |
 | 1000    | `17/31`    | 31       | `54%`           |
 | 1100    | `0/31`    | 31       | `0%`           |
 | 1200    | `0/31`    | 31       | `0%`           |
@@ -63,9 +63,9 @@ Each folder contains:
 | 1800    | `0/31`    | 31       | `0%`           |
 | 1900    | `0/31`    | 31       | `0%`           |
 
-📊 **Overall Progress: 17 / 372**
+📊 **Overall Progress: 79 / 372**
 
-`[██.................................] 4.6%`
+`[███████............................] 21.2%`
 
 > This progress bar is auto-updated using `update_readme.py`
 

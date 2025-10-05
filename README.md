@@ -80,7 +80,7 @@ Each folder contains:
 ## 🎓 About Me
 
 > 👨‍🎓 B.Tech CSE @ NIT Durgapur  
-> 💡 Solved 350+ LeetCode, 1500+ CodeChef, 1000+ CF  
+> 💡 Solved 400+ LeetCode, 1500+ CodeChef, 1000+ CF  
 > 🏁 On a journey to improve in Competitive Programming  
 > 📌 This repo tracks my CP31 journey
 

@@ -1,4 +1,4 @@
-// Q = 1541/B
+// Q = 1541B
 // https://codeforces.com/problemset/problem/1541/B
 
 #include<bits/stdc++.h>

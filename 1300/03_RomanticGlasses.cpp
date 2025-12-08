@@ -21,8 +21,11 @@ int main()
             if(i == 0) prefEven[0] = a[0];
             else if(i%2 == 0) prefEven[i] += a[i];
             else prefOdd[i] += a[i];
-            prefEven[i] += prefEven[i-1];
-            prefOdd[i] += prefOdd[i-1];
+            if(i > 0)
+            {
+                prefEven[i] += prefEven[i-1];
+                prefOdd[i] += prefOdd[i-1];
+            }
             mp[prefEven[i] - prefOdd[i]]++;
             if(mp[prefEven[i] - prefOdd[i]] == 2 || prefEven[i] == prefOdd[i])
             flag = true;

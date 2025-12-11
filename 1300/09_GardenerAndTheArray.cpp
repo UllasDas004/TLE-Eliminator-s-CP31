@@ -24,7 +24,6 @@ int main()
                 cin>>v[j];
                 mp[v[j]]++;
             }
-            sort(v.begin(),v.end());
             a[i] = v;
         }
         bool flag = false;

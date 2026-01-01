@@ -56,16 +56,16 @@ Each folder contains:
 | 1100 | `31/31` | 31 | `100%` |
 | 1200 | `31/31` | 31 | `100%` |
 | 1300 | `31/31` | 31 | `100%` |
-| 1400 | `11/31` | 31 | `35%` |
+| 1400 | `12/31` | 31 | `38%` |
 | 1500 | `0/31` | 31 | `0%` |
 | 1600 | `0/31` | 31 | `0%` |
 | 1700 | `0/31` | 31 | `0%` |
 | 1800 | `0/31` | 31 | `0%` |
 | 1900 | `0/31` | 31 | `0%` |
 
-📊 **Overall Progress: 197 / 372**
+📊 **Overall Progress: 198 / 372**
 
-`[███████████████████................] 53.0%`
+`[███████████████████................] 53.2%`
 
 > This progress bar is auto-updated using `update_readme.py`
 
@@ -80,7 +80,7 @@ Each folder contains:
 ## 🎓 About Me
 
 > 👨‍🎓 B.Tech CSE @ NIT Durgapur  
-> 💡 Solved 400+ LeetCode, 1500+ CodeChef, 1000+ CF  
+> 💡 Solved 600+ LeetCode, 1700+ CodeChef, 1300+ CF  
 > 🏁 On a journey to improve in Competitive Programming  
 > 📌 This repo tracks my CP31 journey
 

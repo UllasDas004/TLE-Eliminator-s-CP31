@@ -1,4 +1,4 @@
-// Q = 1167C
+// Q = 1167B
 // https://codeforces.com/problemset/problem/1167/B
 
 #include<bits/stdc++.h>

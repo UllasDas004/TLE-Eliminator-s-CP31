@@ -2,44 +2,40 @@
 // https://codeforces.com/problemset/problem/1876/A
 
 #include<bits/stdc++.h>
-#define pip pair<int,int>
+#define ll long long
 using namespace std;
+bool cmp(const vector<ll>& a,const vector<ll>& b)
+{
+    if(a[1] != b[1]) return a[1] < b[1];
+    else return a[0] > b[0];
+}
 int main()
 {
-    int t;
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);cout.tie(0);
+    int t=1;
     cin>>t;
-    while(t--)
+    while (t--)
     {
-        int n,p;
+        ll n,p;
         cin>>n>>p;
-        vector<int> a(n),b(n);
-        for(int i=0;i<n;i++) cin>>a[i];
-        for(int i=0;i<n;i++) cin>>b[i];
-        priority_queue<pip,vector<pip>,greater<pip>> pq; //MINHEAP
+        vector<vector<ll>> a(n,vector<ll>(2));
+        for(int i=0;i<n;i++) cin>>a[i][0];
+        for(int i=0;i<n;i++) cin>>a[i][1];
+        sort(a.begin(),a.end(),cmp);
+        ll count = n-1,ans = p;
         for(int i=0;i<n;i++)
-        pq.push({b[i],a[i]});
-        int count = 1;
-        long long cost = p;
-        queue<pip> q;
-        q.push(pq.top());
-        pq.pop();
-        while(count < n)
         {
-            pip curr = q.front();
-            // cout<<curr.first<<" "<<curr.second<<endl;
-            q.pop();
-            if(curr.first > p) break;
-            for(int i=1;count<n && i<= curr.second;i++)
+            if(count == 0) break;
+            if(a[i][1] > p)
             {
-                count++;
-                cost += (long long)curr.first;
-                pip pp = pq.top();
-                pq.pop();
-                q.push(pp);
-            } 
+                ans += count*p;
+                break;
+            }
+            ans += min(a[i][0],count)*a[i][1];
+            count -= min(a[i][0],count);
         }
-        cost += (long long)(((long long)n - (long long)count) * (long long)p);
-        cout<<cost<<endl;
+        cout<<ans<<endl;
     }
     return 0;
 }

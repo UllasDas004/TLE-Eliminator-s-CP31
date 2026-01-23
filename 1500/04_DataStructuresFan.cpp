@@ -45,8 +45,9 @@ int main()
             {
                 int l,r;
                 cin>>l>>r;
-                x0 ^= ((pref0[r]^pref0[l-1]) ^ (pref1[r]^pref1[l-1]));
-                x1 ^= ((pref0[r]^pref0[l-1]) ^ (pref1[r]^pref1[l-1]));
+                ll k = ((pref0[r]^pref0[l-1]) ^ (pref1[r]^pref1[l-1]));
+                x0 ^= k;
+                x1 ^= k;
             }
             else
             {

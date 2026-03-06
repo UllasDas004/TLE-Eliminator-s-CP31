@@ -1,5 +1,5 @@
-// Q = 1418C
-// https://codeforces.com/problemset/problem/1418/C
+// Q = 1404
+// https://codeforces.com/problemset/problem/1404/A
 
 #include<bits/stdc++.h>
 #define ll long long

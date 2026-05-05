@@ -1,4 +1,4 @@
-// Q = 976
+// Q = 976C
 // https://codeforces.com/problemset/problem/976/C
 
 #include<bits/stdc++.h>
